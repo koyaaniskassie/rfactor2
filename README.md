@@ -84,7 +84,7 @@ Bundle of **Components** versioned and signed. Useful for esport where everyone 
 Path: `C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Bin64\ModMgr.exe`
 Version used in this guide: 0.93x
 
-The basic premise for mod manager system is to move selected components of selected mod to `$rfacto2_root/installed` directory.
+The basic premise for mod manager system is to move selected components of selected mod to `$rfactor2_root/installed` directory.
 
 It shows a dependency tree 
 
@@ -92,6 +92,7 @@ It shows a dependency tree
 `Package Dir` must be inside the rFactor2 root
 
 ## gMotor2 MAS File Utility
+Path: `C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Support\Tools\MAS2`
 Tool for managing components i.e. where you modify your car, player, etc.
 Use the tool to extract files you want later modify
 
