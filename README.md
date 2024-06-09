@@ -53,7 +53,9 @@ Zarządzanie awaryjnością bolidów
 	
 	- [ ] Get rid of Pan Kamerzysta (ABSOLUTELY NOT)
 # Observations along the way
-
+## Component conversion
+if your installed package has `something.mas` file and `encrpyted.something.mas` 
+then conversion will be impossible since it will (don't know how yet) detect it has been repackaged. Even without encrypted mas file.
 ## Replays
 - Tyres (at least the colour) are same as they were when you hit replay even when viewing incident before pitstop i.e. 
   S -> pit stop -> M 
@@ -65,6 +67,9 @@ Even when repackaged without changing anything i.e.:
 - created new .mas file
 - created component based on that .mas file
 - installed 
+## Autmoation
+https://github.com/nlhans/MAS2Extract NOT TESTED YET
+someone wrote a utility to extract MAS files, the code could also be reversed to automate packaging new components.
 
 Case shown below is with mod https://steamcommunity.com/sharedfiles/filedetails/?id=1515650133&searchtext=f1. It is yet to be determined what is different, but same steps with mod https://steamcommunity.com/sharedfiles/filedetails/?id=1254885809&searchtext=F1+ASR+2017 it is possible and you can change, names, numbers teams. Knowing that this method of editing is working the task now is to find mod with more customizable elements AND find out why Mika Hakkinenn mod doesn't allow for the same procedure
 ```
@@ -95,7 +100,9 @@ File, (.rfmod)—this contains all of the signed components that it requires. If
 ## MAS file
 MAS file, (.mas)—a file that contains some or all of the loose files that create a particular asset, be it a vehicle, track, sound pack, etc. This should be very familiar to you if you did previous modding for rF1
 
-
+## GMT file
+.gmt files are (from what I could gather) 3d model of car. RThere seems to be an issue converting those files from rfactor 1 to 2
+https://forum.studio-397.com/index.php?threads/tutorial-how-to-quickly-and-efficiently-bring-a-rf1-mod-over-to-rf2.67508/
 
 
 # Tutorials, Guides and other helpful resources
@@ -122,6 +129,10 @@ Path: `C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Support\Tools\MAS
 Tool for managing components i.e. where you modify your car, player, etc.
 Use the tool to extract files you want later modify
 
+## MAS Extraction tool
+https://forum.studio-397.com/index.php?threads/right-click-mas-extraction.61876/
+https://forum.studio-397.com/index.php?attachments/extract-zip.19434/
+havben't installed it yet (there's a chance it's a virus XD)
 # Troubleshooting
 When mod is not visible- restart
 If you get error joining rf2 server, verify files integrity from steam
