@@ -42,7 +42,7 @@ Zarządzanie awaryjnością bolidów
 	- [x] Change individual statistics i.e.
 		- [ ] Determine what these statistics are
 - Team
-	- [ ] Nationality
+	- [x] Nationality in f1 2013 component you can do that, but rfactor2 doesn't show nationality (at least I didn't notice it)
 	- [x] Name
 - Game mechanics
 	- [x] Run AI-only race
