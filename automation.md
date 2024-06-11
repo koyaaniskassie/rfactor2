@@ -52,8 +52,8 @@ Most important elements are:
 NumLocations=1
 Location=C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Packages\caterham.rfcmp
 NumMASFiles=2 
-MASFile=C:\Users\293048765\Desktop\F1_2012\mas\F1_Caterham_2012_MAIN.mas
-MASFile=C:\Users\293048765\Desktop\F1_2012\mas\F1_Caterham_2012_MAPS.mas
+MASFile=C:\rf2_files\F1_2012\mas\F1_Caterham_2012_MAIN.mas
+MASFile=C:\rf2_files\F1_2012\mas\F1_Caterham_2012_MAPS.mas
 ```
 This setup tells ModMgr to take **2** .mas files defined as separate `MASFile` entries and save it as `caterham.rfcmp` in given location.
 # Goal
