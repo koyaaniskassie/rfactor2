@@ -3,6 +3,8 @@ ModMgr.exe CLI options
 # Sources
 https://forum.studio-397.com/index.php?threads/rfcmp-cli-tooling.67452/
 
+Component used for this example https://steamcommunity.com/sharedfiles/filedetails/?id=2086487018
+
 # Packaging MAS files as Component
 ## .dat files
 Descriptive files used to create new mod or package.
