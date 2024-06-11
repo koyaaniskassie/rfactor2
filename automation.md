@@ -56,6 +56,12 @@ MASFile=C:\rf2_files\F1_2012\mas\F1_Caterham_2012_MAIN.mas
 MASFile=C:\rf2_files\F1_2012\mas\F1_Caterham_2012_MAPS.mas
 ```
 This setup tells ModMgr to take **2** .mas files defined as separate `MASFile` entries and save it as `caterham.rfcmp` in given location.
+
+Then run command:
+```
+ModMgr.exe -b"C:\rf2_files\F1_2012\dat\caterham.dat" 0
+```
+Where 0 points to first `[Component/Mod]` since you can define more than one in .dat file
 # Goal
 Now, knowing it's possible to automate entire process, write a script that will:
 - Pack all regular files to as .mas files
